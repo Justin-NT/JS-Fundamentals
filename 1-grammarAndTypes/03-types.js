@@ -21,6 +21,8 @@ let degrees = 90;
 let precise = 999999999999999;
 console.log(precise);
 
+
+// Numbers in javascript aren't perfect, and can overflow. For example, 15 9's are allowed but 16 will cause an overflow
 overflowed = 9999999999999999;
 console.log(overflowed);
 let notQuite = (0.1 + 0.2).toFixed(2);
@@ -71,4 +73,4 @@ console.log(a + b);
 
 let greet = "Hey"
 let name = "Justin"
-console.log(`${greet} ${name}!`)
+console.log(`${greet} ${name}!`) // String interpolation
